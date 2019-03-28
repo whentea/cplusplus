@@ -14,7 +14,7 @@ int main()
 }
 ```
 <br/>
-*My Note*  <br/>
+_My Note_
 Firstly,<br/>
 This body consists of some programming parts such as comment, header and body program. Two back slachs give a sign that the statement is a comment that will not be processing by program. Although be statement, yet there is a method in't that no processing will be done there<br/>
 
