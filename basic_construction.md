@@ -2,17 +2,18 @@
 
 **Let's see Guys !**
 
-//We start our body construction note with what we called "comment". Begins with two slash, then write down your statement<br/>
-#include <iostream><br/>
-using namespace std;<br/>
+```css
+//We start our body construction note with what we called "comment". Begins with two slash, then write down your statement
+#include <iostream>
+using namespace std;
 
-int main()<br/>
-{<br/>
-  cout <<"Hello, thie is an invitation for all of u to join studying C++ language programming";<br/>
-  return 0;<br/>
-}<br/><br/>
-
-
+int main()
+{
+  cout <<"Hello, thie is an invitation for all of u to join studying C++ language programming";
+  return 0;
+}
+```
+<br/>
 __MyNote__:<br/>
 Firstly,<br/>
 This body consists of some programming parts such as comment, header and body program. Two back slachs give a sign that the statement is a comment that will not be processing by program. Although be statement, yet there is a method in't that no processing will be done there<br/>
