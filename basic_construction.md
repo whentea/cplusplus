@@ -1,4 +1,4 @@
-1. Basic construction of C++ programming
+##Basic construction of C++ programming<br/>
 
 **Let's see Guys !**
 
@@ -16,8 +16,8 @@ int main()<br/>
 
 
 __MyNote__:<br/>
-This body consists of some programming parts such as comment, header and body program.
-Two back slachs give a sign that the statement is a comment that will not be processing by program
+This body consists of some programming parts such as comment, header and body program.<br/>
+Two back slachs give a sign that the statement is a comment that will not be processing by program<br/>
 Although be statement, yet there is a method in't that no processing will be done there<br/>
 
 Second, you will look a header that begins with # sign<br/>
