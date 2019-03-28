@@ -22,11 +22,11 @@ Second, you will look a header that begins with # sign. Remember that include is
 
 Third, we look the body program. Just a simple state, **hello bla bla bla**<br/>
 
-Finally, there is a "return 0" statement. Why ? Remember that we use "int main" function. U need a return value as the final feetback of your program<br/><br/><br/>.
+Finally, there is a "return 0" statement. Why ? Remember that we use "int main" function. U need a return value as the final feetback of your program.<br/><br/><br/>.
 
 
 with love,<br/>
-Wenty
+**Wenty**
 
 
 
