@@ -20,7 +20,7 @@ This body consists of some programming parts such as comment, header and body pr
 
 Second, you will look a header that begins with # sign. Remember that include is one of keywords of C++ library. The "using namesapce std" must declare in your program if you utilize I/O instructions<br/>
 
-Third, we look the body program. Just a simple state, **hello bla bla bla**<br/>
+Third, we look the body program. Just a simple state, `cout<<"Hello ...";` <br/>
 
 Finally, there is a "return 0" statement. Why ? Remember that we use "int main" function. U need a return value as the final feetback of your program.<br/><br/><br/>.
 
