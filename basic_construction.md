@@ -1,9 +1,9 @@
-Basic construction of C++ programming
+1. Basic construction of C++ programming
 
 **Let's see Guys !**
 
-//We start our body construction note with what we called  with "comment". Begin with two slash, then write down your statement<br/>
-//Firstly, declare your header. Like following statement:<br/>
+//We start our body construction note with what we called "comment". Begins with two slash, then write down your statement<br/>
+//Firstly, declare your header. Like following statement:<br/><br/>
 #include <iostream><br/>
 using namespace std;<br/><br/>
 
