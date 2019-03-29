@@ -58,7 +58,7 @@ Let's execute and see the result
 
 ### License
 
-Permission is hereby granted
+Permission is hereby granted, free of charge (hehehe)
 
 ---
 
