@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://imgur.com/a/E62V83D"><img src="https://imgur.com/a/E62V83D" alt="C++" width="200"></a>
+  <a href="https://cdn-images-1.medium.com/max/1200/1*YU6BvZKvxivoEnvqxeG5rw.png" ><img src="https://cdn-images-1.medium.com/max/1200/1*YU6BvZKvxivoEnvqxeG5rw.png" alt="C++" width="200"></a>
   <br>
   C++ Symbol
   <br>
