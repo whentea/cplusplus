@@ -1,7 +1,13 @@
 ## Input/Output, Looping, Break and Continue
 
 
-[c++ symbol](https://imgur.com/a/E62V83D)
+<h1 align="center">
+  <br>
+  <a href="https://imgur.com/a/E62V83D"><img src="https://imgur.com/a/E62V83D" alt="C++" width="200"></a>
+  <br>
+  C++ Symbol
+  <br>
+</h1>
 
 
 <p align="center">
