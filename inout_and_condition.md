@@ -33,7 +33,7 @@ Sometimes the statements need to left unprocessed
 
 ### Source Code
 
-`
+```css
 //Odd number calculation from 0-50
 #include <iostream>
 using namespace std;
@@ -49,7 +49,9 @@ int main()
   return 0;
 }
 `
+
 Let's execute and see the result
+
 
 `
 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25,
