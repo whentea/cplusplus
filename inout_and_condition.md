@@ -24,7 +24,7 @@ Using `cin` to input data that will be proceeded or using `cout` to present the 
 
 ### Looping
 
-Using LOOPING statement is simple done for repeating much activities
+Using LOOPING statement is simply done for repeating many activities
 
 ### Break and Continue
 
@@ -34,6 +34,7 @@ Sometimes the statements need to left unprocessed
 
 Permission is hereby granted
 
+---
 
 with love,
 
