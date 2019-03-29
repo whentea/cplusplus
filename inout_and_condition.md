@@ -14,7 +14,7 @@
   <a href="#input-output">Input Output</a> •
   <a href="#conditional">Conditional</a> •
   <a href="#break">Break and Continue</a> •
-  <a href="#source code">Source Code</a> •
+  <a href="#exercise">Exercise:</a> •
   <a href="#license">License</a> 
 </p>
 
@@ -31,7 +31,7 @@ Using LOOPING statement is simply done for repeating many activities
 
 Sometimes the statements need to left unprocessed
 
-### Source Code
+### Exercise
 
 ```css
 //Odd number calculation from 0-50
