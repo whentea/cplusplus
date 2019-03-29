@@ -14,7 +14,8 @@
   <a href="#input-output">Input Output</a> •
   <a href="#conditional">Conditional</a> •
   <a href="#break">Break and Continue</a> •
-  <a href="#license">License</a>
+  <a href="#source code">Source Code</a> •
+  <a href="#license">License</a> 
 </p>
 
 ### Input Output
@@ -29,6 +30,31 @@ Using LOOPING statement is simply done for repeating many activities
 ### Break and Continue
 
 Sometimes the statements need to left unprocessed
+
+### Source Code
+
+`
+//Odd number calculation from 0-50
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int i;
+  for (i=1; i<=50; i++)
+  {
+    if ((i%2)==0) continue;
+        cout<<i<<", ";
+  }
+  return 0;
+}
+`
+Let's execute and see the result
+
+`
+1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25,
+`
+
 
 ### License
 
