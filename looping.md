@@ -10,8 +10,8 @@
 <p align="center">
   <a href="#intro">Introduction</a> •
   <a href="#for">FOR Looping</a> •
-  <a href="#do-while">Do-While Looping</a> •
-  <a href="#while-do">While-Do Looping</a> 
+  <a href="#dowhile">Do-While Looping</a> •
+  <a href="#whiledo">While-Do Looping</a> 
 </p>
 
 
