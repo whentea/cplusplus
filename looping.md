@@ -11,8 +11,7 @@
   <a href="#intro">Introduction</a> •
   <a href="#for">FOR Looping</a> •
   <a href="#do-while">Do-While Looping</a> •
-  <a href="#while-do">While-Do Looping</a> •
-  <a href="#closing">Closing Statement</a> 
+  <a href="#while-do">While-Do Looping</a> 
 </p>
 
 
@@ -29,23 +28,40 @@ Let's take a closer look at each of the patterns.
 
 ### FOR Looping
 
+Exercise with For Looping:
+
+```css
+
+```
+
 ---
 
 
 ### Do-While Looping
+
+Exercise with Do-While Looping:
+
+```css
+
+```
 
 ---
 
 
 ### While-Do Looping
 
+Exercise with While-Do Looping:
+
+```css
+
+```
+
 
 ---
 
 
-### Closing Statement
 
----
+
 with love,
 
 Wenty
