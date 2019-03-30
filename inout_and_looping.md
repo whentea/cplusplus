@@ -31,7 +31,7 @@ Using LOOPING statement is simply done for repeating many activities
 
 Sometimes the statements need to left unprocessed
 
-### Exercise
+### Exercise 1:
 
 ```css
 //Odd number calculation from 0-50
@@ -54,6 +54,40 @@ Let's execute and see the result
 
 
 `1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25,`
+
+
+### Exercise 2:
+
+```css
+//Input-Output and Break Instruction
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int start, last, m;
+  cout<<"Input your start number : ";
+  cin>>start;
+  cout<<"Input your last number : ";
+  cin>>last;
+  for (m=start; m<=last; m++)
+  {
+    if ((m%2)==0)
+        continue;
+    if (m==25)
+        break;
+    cout<<m<<", ";
+  }
+  return 0;
+}
+```
+
+Let's execute and see the result if the start number is 1 and the last number is 50:
+
+`Input your start number :`
+`Input your last number :`
+`1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25,`
+
 
 
 ### License
