@@ -31,7 +31,22 @@ Let's take a closer look at each of the patterns.
 Exercise with For Looping:
 
 ```css
+#include <iostream>
+using namespace std;
 
+int main()
+{
+    int n, m, factorial;
+    factorial = 1;
+    cout<<"Enter a positive integer : ";
+    cin>>m;
+
+    for (n=1;n<=m;n++)
+       factorial *= n;
+    cout<<"Factorial of "<<m<<" is "<<factorial;
+
+    return 0;
+}
 ```
 
 ---
@@ -42,7 +57,27 @@ Exercise with For Looping:
 Exercise with Do-While Looping:
 
 ```css
+#include <iostream>
+using namespace std;
 
+int main()
+{
+    int n, m, factorial;
+    factorial = 1;
+    cout<<"Enter a positive integer : ";
+    cin>>m;
+
+    n=1;
+    do
+    {
+        factorial *= n;
+        n++;
+    }
+    while(n<=m);
+
+    cout<<"Factorial of "<<m<<" is "<<factorial;
+    return 0;
+}
 ```
 
 ---
@@ -53,7 +88,26 @@ Exercise with Do-While Looping:
 Exercise with While-Do Looping:
 
 ```css
+#include <iostream>
+using namespace std;
 
+int main()
+{
+    int n, m, factorial;
+    factorial = 1;
+    cout<<"Enter a positive integer : ";
+    cin>>m;
+
+    n=1;
+    while (n<=m)
+    {
+        factorial *= n;
+        n++;
+    }
+
+    cout<<"Factorial of "<<m<<" is "<<factorial;
+    return 0;
+}
 ```
 
 
