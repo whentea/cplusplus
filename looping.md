@@ -14,3 +14,27 @@
   <a href="#while-do">While-Do Looping</a> •
   <a href="#closing">Closing Statement</a> 
 </p>
+
+### Introduction
+
+
+
+### FOR Looping
+
+
+
+### Do-While Looping
+
+
+
+### While-Do Looping
+
+
+
+### Closing Statement
+
+---
+with love,
+
+Wenty
+
