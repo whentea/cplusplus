@@ -9,8 +9,8 @@
 
 <p align="center">
   <a href="#intro">Introduction</a> •
-  <a href="#for">Looping with for</a> •
-  <a href="#do-while">Looping with Do-While</a> •
-  <a href="#while-do">Looping While-Do</a> •
-  <a href="#closing">Closing</a> 
+  <a href="#for">FOR Looping</a> •
+  <a href="#do-while">Do-While Looping</a> •
+  <a href="#while-do">While-Do Looping</a> •
+  <a href="#closing">Closing Statement</a> 
 </p>
