@@ -15,7 +15,15 @@
   <a href="#closing">Closing Statement</a> 
 </p>
 
+
+
 ### Introduction
+
+There are three kinds of looping instructions: FOR, DO-WHILE and WHILE-DO.
+
+Which one would you choose ? Which one you choose will completely depend on the case.
+
+Let's take a closer look at each of the patterns.
 
 
 
