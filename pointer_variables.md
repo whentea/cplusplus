@@ -26,3 +26,11 @@ int main()
     cout <<"The address of Var3 is "<< &var3 << endl;
 }
 ```
+
+The result is
+
+```
+The address of Var1 is 0xffffcbcc
+The address of Var2 is 0xffffcbc8
+The address of Var3 is 0xffffcbc4
+```
