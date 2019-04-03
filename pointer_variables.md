@@ -82,3 +82,100 @@ Content of the address pointer pvar1 holds (*pvar1): 8
 Address of var1 (&var1): 0xffffcbc4
 Value of var1 (var1): 26
 ```
+
+## Pointers and Arrays
+
+Pointers are the variables that hold address
+
+Not only can pointers store address of single variable, it can also store address of cells of array.
+
+Exercise 3:
+
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float arr[5];
+    float *ptr;
+
+    cout << "Displaying address using arrays: " << endl;
+    for (int i = 0; i < 5; ++i)
+    {
+        cout << "&arr[" << i << "] = " << &arr[i] << endl;
+    }
+
+    // ptr = &arr[0]
+    ptr = arr;
+
+    cout<<"\nDisplaying address using pointers: "<< endl;
+    for (int i = 0; i < 5; ++i)
+    {
+        cout << "ptr + " << i << " = "<< ptr + i << endl;
+    }
+
+    return 0;
+}
+```
+
+The result is
+
+```
+```
+
+Exercise 4:
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    float arr[5];
+    
+    cout<<"Displaying address using pointers notation: "<< endl;
+    for (int i = 0; i < 5; ++i) {
+        cout << arr + i <<endl;
+    }
+
+    return 0;
+}
+```
+
+The result is
+
+```
+```
+
+Exercise 5 :
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    float arr[5];
+    
+   // Inserting data using pointer notation
+    cout << "Enter 5 numbers: ";
+    for (int i = 0; i < 5; ++i) {
+        cin >> *(arr + i) ;
+    }
+
+    // Displaying data using pointer notation
+    cout << "Displaying data: " << endl;
+    for (int i = 0; i < 5; ++i) {
+        cout << *(arr + i) << endl ;
+    }
+
+    return 0;
+}
+```
+
+The result is
+
+```
+```
+
+
+ 
