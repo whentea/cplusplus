@@ -122,6 +122,19 @@ int main()
 The result is
 
 ```
+Displaying address using arrays:
+&arr[0] = 0xffffcba0
+&arr[1] = 0xffffcba4
+&arr[2] = 0xffffcba8
+&arr[3] = 0xffffcbac
+&arr[4] = 0xffffcbb0
+
+Displaying address using pointers:
+ptr + 0 = 0xffffcba0
+ptr + 1 = 0xffffcba4
+ptr + 2 = 0xffffcba8
+ptr + 3 = 0xffffcbac
+ptr + 4 = 0xffffcbb0
 ```
 
 Exercise 4:
@@ -145,24 +158,36 @@ int main() {
 The result is
 
 ```
+Displaying address using pointers notation:
+0xffffcbb0
+0xffffcbb4
+0xffffcbb8
+0xffffcbbc
+0xffffcbc0
 ```
 
 Exercise 5 :
 
 ```
-#include <iostream>
+##include <iostream>
 using namespace std;
 
 int main() {
+
     float arr[5];
-    
+
    // Inserting data using pointer notation
-    cout << "Enter 5 numbers: ";
+    cout << "Enter 5 numbers: " << endl;
     for (int i = 0; i < 5; ++i) {
         cin >> *(arr + i) ;
     }
 
+    cout<<endl;
+    for (int i = 0; i < 5; ++i) {
+        cout <<"Address of array "<<i<<" is"<< arr + i <<endl;
+    }
     // Displaying data using pointer notation
+    cout<<endl;
     cout << "Displaying data: " << endl;
     for (int i = 0; i < 5; ++i) {
         cout << *(arr + i) << endl ;
@@ -170,12 +195,33 @@ int main() {
 
     return 0;
 }
+
 ```
 
 The result is
 
 ```
+Enter 5 numbers:
+2
+3
+4
+5
+6
+
+Address of array 0 is0xffffcbb0
+Address of array 1 is0xffffcbb4
+Address of array 2 is0xffffcbb8
+Address of array 3 is0xffffcbbc
+Address of array 4 is0xffffcbc0
+
+Displaying data:
+2
+3
+4
+5
+6
 ```
+
 
 
  
