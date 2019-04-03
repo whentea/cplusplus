@@ -8,4 +8,4 @@ Pointers are used in program to access the memory and manipulate the address.
 
 Each variable you create in your computer is assigned a location in the computer's memory.
 
-To know where the data is stored, C++ has an & operator, that is, **&**.
+To know where the data is stored, C++ has an operator, that is, **&**.
