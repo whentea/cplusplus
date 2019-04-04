@@ -1,1 +1,3 @@
-# STRINGS  String is a collection of characters.
+# STRINGS
+
+String is a collection of characters.
