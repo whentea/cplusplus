@@ -42,6 +42,40 @@ int main()
 Exercise 2:
 
 ```
+#include<iostream>
+using namespace std;
+
+struct Student
+{
+    char name[50];
+    int age;
+    float GPA;
+};
+
+int main()
+{
+    Student Stud[3];
+    int i;
+
+    for (i=0;i<3;i++)
+    {
+        cout << "\nEnter detail of " << i+1 << "Student" << endl;
+        cout << "Enter name : ";
+        cin >> Stud[i].name;
+        cout << "Enter age : ";
+        cin >> Stud[i].age;
+        cout << "Enter GPA : ";
+        cin >> Stud[i].GPA;
+    }
+
+    cout << "\nDetail Students" << endl;
+    for (i=0;i<3;i++)
+        cout << "\n" << Stud[i].name <<"\t"<< Stud[i].age <<"\t"
+        << Stud[i].GPA;
+
+    return 0;
+}
+
 ```
 
 
