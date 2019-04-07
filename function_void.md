@@ -11,7 +11,25 @@ Function relates an input to an output or an output relates somehow to an input.
 
 ## Functions in programming language
 
+There are two types of functions: library function and user-defined function.
+
+## User-Defined Function
+
 Okay, first, let's discuss about what USER-DEFINED FUNCTION is.
+
+Usedefined function means that C++ allows programmers to define their own function.
+
+There are four types of user-defined functions, those can be categorised as : function with
+
+* no argument and no return
+
+* no argument but return value
+
+* argument but no return value
+
+* argument and return value
+
+So, let's see lots more !!
 
 Exercise 1:
 
