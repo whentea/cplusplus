@@ -11,4 +11,39 @@ Function relates an input to an output or an output relates somehow to an input.
 
 ## Functions in programming language
 
-Okay, first, let's discuss about what VOID is.
+Okay, first, let's discuss about what USER-DEFINED FUNCTION is.
+
+Exercise 1:
+
+```
+#include <iostream>
+using namespace std;
+
+void factorial();
+
+int main()
+{
+    factorial();
+    return 0;
+
+}
+
+void factorial()
+{
+    int n, m, fact;
+    fact = 1;
+    cout<<"Enter a positive integer : ";
+    cin>>m;
+
+    n=1;
+    while (n<=m)
+    {
+        fact *= n;
+        n++;
+    }
+
+    cout<<"Factorial of "<<m<<" is "<<fact;
+}
+```
+
+
