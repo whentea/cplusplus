@@ -34,6 +34,7 @@ So, let's see lots more !!
 Exercise 1:
 
 ```
+//It's an example of the void function
 #include <iostream>
 using namespace std;
 
