@@ -4,7 +4,7 @@ It's time to talk about function.
 
 Function in the term of programming, is a group codes to perform a specific task. 
 
-That's different from "Function" in mathematics, which is in mathematics, function is a special relationship.
+It's different from "Function" term in mathematics, which is in mathematics, function is a special relationship.
 
 Function relates an input to an output or an output relates somehow to an input.
 
