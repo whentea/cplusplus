@@ -31,6 +31,8 @@ There are four types of user-defined functions, those can be categorised as : fu
 
 So, let's see lots more !!
 
+The first type function is function with no arguments passed and no return value.
+
 Exercise 1:
 
 ```
@@ -67,6 +69,8 @@ void factorial()
 
 Exercise 2:
 
+The second type function is function with no arguments passed but a return value.
+
 ```
 #include <iostream>
 using namespace std;
@@ -101,4 +105,77 @@ int factorial()
 
 ```
 
+Exercise 3:
 
+The third type function is function with arguments passed but no return value.
+
+```
+//Argument passed but no return value
+#include <iostream>
+using namespace std;
+
+void factorial(int k);
+
+int main()
+{
+    int posint;
+    cout<<"Enter a positive integer : ";
+    cin>>posint;
+
+    factorial(posint);
+    return 0;
+
+}
+
+void factorial(int k)
+{
+    int n, fact;
+    fact = 1;
+
+    n=1;
+    while (n<=k)
+    {
+        fact *= n;
+        n++;
+    }
+
+    cout<<"Factorial of "<<k<<" is "<<fact;
+}
+```
+
+Exercise 4:
+
+The fourth type function is function with arguments passed and a return value.
+
+```
+#include <iostream>
+using namespace std;
+
+int factorial(int k);
+
+int main()
+{
+    int posint, result_fact;
+    cout<<"Enter a positive integer : ";
+    cin>>posint;
+
+    result_fact=factorial(posint);
+    cout<<"Factorial of "<<posint<<" is "<<result_fact;
+        return 0;
+
+}
+
+int factorial(int k)
+{
+    int n, fact;
+    fact = 1;
+
+    n=1;
+    while (n<=k)
+    {
+        fact *= n;
+        n++;
+    }
+    return fact;
+}
+```
