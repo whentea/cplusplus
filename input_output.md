@@ -21,14 +21,14 @@ int main () {
 using namespace std;
 
 int main () {
-  ofstream myfile;
-  if (myfile.is_open ("sample_out.txt"))
+  ofstream myfile("sample_out.txt");
+  if (myfile.is_open())
   {
-  myfile << "Writing this to a file.\n";
-  myfile << "Writing two lines.";
+  myfile << "Writing this to a file." << endl;
+  myfile << "Writing two lines.\n";
   myfile.close();
   }
-  else 
+  else
   cout << "Unable to open the file.";
   return 0;
 }
@@ -43,7 +43,7 @@ using namespace std;
 
 int main () {
   string line;
-  ifstream myfile ("sampel_out.txt");
+  ifstream myfile ("sample_out.txt");
   if (myfile.is_open())
   {
     while ( getline (myfile,line) )
@@ -53,7 +53,7 @@ int main () {
     myfile.close();
   }
 
-  else cout << "Unable to open file"; 
+  else cout << "Unable to open file";
 
   return 0;
 }
