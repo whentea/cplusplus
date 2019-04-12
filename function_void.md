@@ -180,7 +180,7 @@ int factorial(int k)
 }
 ```
 
-## Another case for function with no parameter and no return value
+## Another case for function with no argument and no return value
 
 ```
 int main()
