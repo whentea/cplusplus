@@ -183,6 +183,11 @@ int factorial(int k)
 ## Another case for function with no argument and no return value
 
 ```
+#include <iostream>
+using namespace std;
+
+void calculate_factorial();
+
 int main()
 {
     calculate_factorial();
@@ -206,5 +211,40 @@ void calculate_factorial()
 
     cout << endl;
     //Do not need a return value
+}
+```
+
+## Another case for function with no argument but return value
+
+```
+#include <iostream>
+using namespace std;
+
+int calculate_factorial();
+
+int main()
+{
+    int n, m, factorial;
+	m = calculate_factorial();	
+	factorial = 1;
+    cout << endl;
+
+    for (n=1;n<=m;n++)
+    {
+        factorial *= n;
+        cout<<"Factorial of "<<n<<" is "<<factorial;
+        cout << endl;
+    }
+
+    cout << endl;
+    
+    return 0;
+}
+
+int calculate_factorial()
+{
+    cout<<"Enter a positive integer : ";
+    cin>>m;
+	return m;
 }
 ```
