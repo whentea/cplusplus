@@ -255,12 +255,20 @@ int calculate_factorial()
 #include <iostream>
 using namespace std;
 
-int calculate_factorial();
+void calculate_factorial(int m);
 
 int main()
 {
-    int n, m, factorial;
-	m = calculate_factorial();	
+    int postint;
+	cout<<"Enter a positive integer : ";
+    cin>>postint;	
+	calculate_factorial(postint);	    
+    return 0;
+}
+
+void calculate_factorial(int m)
+{
+    int n, factorial;
 	factorial = 1;
     cout << endl;
 
@@ -272,14 +280,6 @@ int main()
     }
 
     cout << endl;
-    
-    return 0;
-}
-
-int calculate_factorial()
-{
-    cout<<"Enter a positive integer : ";
-    cin>>m;
-	return m;
+	
 }
 ```
