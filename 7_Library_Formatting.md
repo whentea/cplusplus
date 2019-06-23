@@ -3,6 +3,10 @@
 **Let's see Guys !**  
 ### Pustaka untuk Operasi Matematika  
 
+sin(x), cos(x), tan(x)  
+x dalam rads  
+
+
 ### Format  
 Menggunakan `#include <iomanip>  `  
 
